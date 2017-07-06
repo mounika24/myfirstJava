@@ -1,0 +1,8 @@
+---
+applications:
+- path: webapp.war
+  name: Hello_sample
+  host: Hello_sample
+  memory: 512M
+  instances: 1
+  random-route: true
